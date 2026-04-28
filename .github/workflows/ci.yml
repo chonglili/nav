@@ -32,3 +32,5 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: dist/browser
+          env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
